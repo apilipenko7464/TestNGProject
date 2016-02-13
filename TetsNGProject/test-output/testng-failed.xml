@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation test]">
+  <test name="Smoke Testcases">
+    <packages>
+      <package name="testngFiles"/>
+      <package name="packageTwo"/>
+    </packages>
+    <classes>
+      <class name="testngFiles.Annot2"/>
+      <class name="testngFiles.Anotations"/>
+      <class name="testngFiles.DependencyAnnot"/>
+      <class name="packageTwo.Annot2"/>
+      <class name="packageTwo.Anotations"/>
+      <class name="packageTwo.DependencyAnnot"/>
+    </classes>
+  </test> <!-- Smoke Testcases -->
+</suite> <!-- Failed suite [Automation test] -->
